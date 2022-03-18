@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px;
+}
+.boton{
+    width: 20%;
+    height: 20%;
+    padding: 16.5px 0;
+    border-radius: 25px;
+    text-align: center;
+}
+.numero{
+    background-color: #2f3131;
+}
+.operador{
+    background-color:#f69806;
+}
+.igualOperador{
+    background-color:#f69806;
+}
+.c{
+    background-color:#a0a0a0;
+    color: black;
+}
+.disabled{
+    background-color:#f62206;
+}
+.igualDisabled{
+    background-color:#f62206;
+}
+.largo{
+    width: 42.5%;
+}
+.infoOperacion{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
